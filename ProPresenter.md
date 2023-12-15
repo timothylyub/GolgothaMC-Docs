@@ -1,104 +1,90 @@
 # ProPresenter Procedures
 
 ## Adding New Songs
-Always check if the song already exist before adding it. If it does already exist and needs to be edited go to [Editing Songs](#editing/formatting-songs). There should be no two same songs only different arrangements 
+Before adding a new song, verify that it is not already in ProPresenter. If the song exists but needs modifications, go to [Editing Songs](#editing-and-arranging-songs). Ensure there are no duplicates of the same song; different versions need to be different arrangements.
 
+### Option #1: Creating A New Presentation
+1. Select `File > New Presentation` or use `Command+N`.
+2. The filename should be the exact song title.
+3. Choose the `Singing Main` theme.
+4. Save to the appropriate Library (commonly `Youth Songs`) and add to the relevant Playlist (typically `Youth Service`).
+5. Access the reflow editor.
+6. Input all unique verses and choruses. Each chorus should be unique, even if it repeats.
+7. Create a `Main` arrangement by following the guidelines in [Editing Songs](#editing-and-arranging-songs).
 
-### Option #1: Creating a new Presentation
-1. Click `File>New Presentation` or use the shortcut `Command+N`.
-2. The filename needs to be the accurate song name.
-3. The theme should be `Singing Main`.
-4. Choose the Library that it should be saved too(usually `Youth Songs`) and the Playlist it should be put in(usually `Youth Service`).
-5. Go to the reflow editor
-6. Add all unique verses/choruses and set the group accordingly. So only one chorus is the same chorus repeats in multiple spots.
-7. Refer to [Editing Songs](#editing-and-arranging-songs) and make a `Main` arrangement.
-
-### Option #2: From .txt File
-
-Song imported in this way need to be formatted as such.
-```txt
-Title: The Accurrate Actual Title of The Song
+### Option #2: Importing From a .txt File
+Ensure the song text file follows this format:
+```
+Title: Exact Song Title
 
 Verse 1
-The text for Verse 1
+Verse 1 lyrics text
+More Verse 1 lyrics text
 
 Chorus
-The text for the Chorus
+Chorus lyrics text
+More Chorus lyrics text
 
 Verse 2
-The text for Verse 2
+Verse 2 lyrics text
+More Verse 1 lyrics text
 
 Verse 3
-The text for Verse 3
+Verse 3 lyrics text
+More Verse 3 lyrics text
 ```
 
-1. Go to `File>Import>File...`
-2. Select the file and select Import.
-3. Double-check the theme is set to `Singing Main`
-4. Choose the Library that it should be saved too(usually `Youth Songs`) and the Playlist it should be put in(usually `Youth Service`).
-5. Click Edit. Remove any duplicate choruses and regroup slides. There should be only one chorus if it repeats multiple times.
-6. Refer to [Editing Songs](#editing-and-arranging-songs) for more editing and arranging details.
+Procedure:
+1. Navigate to `File > Import > File...`.
+2. Select and import the .txt file.
+3. Verify the `Singing Main` theme is applied.
+4. Save to the suitable Library (usually `Youth Songs`) and Playlist (typically `Youth Service`).
+5. Edit the imported content, removing redundant choruses and regrouping slides as needed.
+6. For detailed editing and arranging instructions, see [Editing Songs](#editing-and-arranging-songs).
 
-### Option #3: From PowerPoint(pptx)
-
-1. Get a PowerPoint file. If you have a different type of slide format such as Google Slides or Keynote they can be exported to pptx.
-2. Use the terminal tool to convert it to a text(txt) file.
-3. Open the text file and make sure the conversion was good and adjust any names groups. make sure the title is correct to not cause confusion.
-
+### Option #3: Importing From PowerPoint (pptx)
+1. Acquire a PowerPoint (.pptx) file. Convert other formats (e.g., Google Slides, Keynote) to .pptx.
+2. Use a terminal command to convert the .pptx file into a .txt file. It should output in a ProPresenter ready format.
+3. Review the converted text, adjusting titles and group names for accuracy. Valid group names include: Verse, Verse (1-6), Chorus, Chorus (1-4), Bridge, Bridge (1-3), Pre-Chorus, Tag, Intro, Outro, Interlude, Vamp, Turnaround.
+4. Follow the steps in Option #2 for importing from a .txt file.
 
 ## Editing and Arranging Songs
 
-
 ### Song Structure
-
-- All verses and variations of verses should be included in the master arrangement of the song including other language/translated verses
-- If the song has a repeating part such as a chorus or bridge it should only appear once in the master.
-- All songs should have a new arrangement called `Main` where all repeated sections like choruses are placed into their spots.
-- All slides more than 4 lines long should be broken into 2 separate slides. The second slide does not get a group and should be automatically connected to the previous.
+- Include every verse and variation in the master arrangement, considering translations.
+- Repeating sections (chorus, bridge) should appear only once in the master version.
+- Create a `Main` arrangement where all repeated sections are correctly placed.
+- Any slide exceeding 4 lines should be divided into two connected slides.
 
 #### Main Arrangement Details
-- All the verses/choruses should be ordered how they would normally be ordered in the original. So choruses need to be placed between verses and so on.
-- Only the verses that are normally sung should be included in the Main arrangement.
-- Additional variations that are normally not in the song should not be in the Main arrangement but should have a different arrangement for them. Such as `w/English` or `w/Russian`.
-- If a verse or Chorus repeats it should be put into the arrangement twice.
-- If part of a verse or chorus repeats the repeated section should have its own slide. So that will need to be put into the `Master` arrangement.
+- Arrange verses and choruses to mirror the original song's sequence.
+- The `Main` arrangement should only include verses typically sung.
+- Exclude uncommon variations from the `Main` arrangement; create specific arrangements for them (e.g., `w/English`, `w/Russian`).
+- Repeat any verses or choruses in the arrangement if they are repeated in the song. So if chorus repeats there should be two choruses nest to each pther in the arragement
+- Create separate slides for repeated sections within a verse or chorus.
 
 #### Arrangement Naming Scheme
-- `Master` - This is the main song with all the songs unique component. Basically the un-arranged version
-- `Main` - Arrangement that resembles the original song as possible and is mainly used.
-- `w/Russian` - English Arrangement that includes some Russian components.
-- `w/English` - Russian Arrangement that includes some English components.
+- `Master`: The comprehensive version containing all unique elements of the song.
+- `Main`: An arrangement closely resembling the original song, typically used.
+- `w/Russian`: An English arrangement with Russian elements.
+- `w/English`: A Russian arrangement with English elements.
 
-### Examples
+### Example Arrangements
 
-**Simple Song**
+#### Simple Song
+- **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3`
+- **Main**: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus`
 
-Master: `Verse 1 | Chorus | Verse 2 | Verse 3`
+#### Simple Song With Chorus Reapeat
+- **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3`
+- **Main**: `Verse 1 | Chorus | Chorus | Verse 2 | Chorus | Chorus | Verse 3 | Chorus | Chorus`
 
-Main: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus`
+#### Song With Bridge
+- **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3 | Bridge`
+- **Main**: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus | Bridge | Chorus`
 
-**Song With Bridge**
-
-Master: `Verse 1 | Chorus | Verse 2 | Verse 3 | Bridge`
-
-Main: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus | Bridge | Chorus`
-
-**English Song w/Russian**
-
-Master: 
-```
-          Russian           Russian             Russian             Russian
-Verse 1 | Verse 1 | Chorus | Chorus | Verse 2 | Verse 2 | Verse 3 | Verse 3
-```
-
-Main:
-```
-Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus
-```
-
-w/Russian:
-```
-                                                         Russian   Russian
-Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus | Verse 3 | Chorus 
-```
+#### English Song w/Russian
+- **Master**:`Verse 1 | Verse 1(Russian Version) | Chorus | Chorus(Russian) | Verse 2 | Verse 2(Russian) | Verse 3 | Verse 3(Russian)`
+- **Main**:`Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus`
+- **w/Russian**:`Verse 1 | Chorus | Verse 2 | Verse 3 | Chorus | Verse 3(Russian) | Chorus(Russian)`
 
