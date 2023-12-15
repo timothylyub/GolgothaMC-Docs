@@ -1,4 +1,4 @@
-# ProPresenter Procedures
+# ProPresenter Docs
 
 ## Adding New Songs
 Before adding a new song, verify that it is not already in ProPresenter. If the song exists but needs modifications, go to [Editing Songs](#editing-and-arranging-songs). Ensure there are no duplicates of the same song; different versions need to be different arrangements.
@@ -34,7 +34,6 @@ Verse 3 lyrics text
 More Verse 3 lyrics text
 ```
 
-Procedure:
 1. Navigate to `File > Import > File...`.
 2. Select and import the .txt file.
 3. Verify the `Singing Main` theme is applied.
