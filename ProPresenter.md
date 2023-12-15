@@ -84,7 +84,7 @@ Procedure:
 - **Main**: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus | Bridge | Chorus`
 
 #### English Song w/Russian
-- **Master**:`Verse 1 | Verse 1(Russian Version) | Chorus | Chorus(Russian) | Verse 2 | Verse 2(Russian) | Verse 3 | Verse 3(Russian)`
-- **Main**:`Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus`
-- **w/Russian**:`Verse 1 | Chorus | Verse 2 | Verse 3 | Chorus | Verse 3(Russian) | Chorus(Russian)`
+- **Master**:`Verse 1 | Verse 1(Russian Version) | Chorus | Chorus(Russian) | Verse 2 | Verse 2(Russian)`
+- **Main**:`Verse 1 | Chorus | Verse 2 | Chorus`
+- **w/Russian**:`Verse 1 | Chorus | Verse 2 | Chorus | Verse 2(Russian) | Chorus(Russian)`
 
