@@ -44,45 +44,63 @@ More Verse 3 lyrics text
 ### Option #3: Importing From PowerPoint (pptx)
 1. Acquire a PowerPoint (.pptx) file. Convert other formats (e.g., Google Slides, Keynote) to .pptx.
 2. Use a terminal command to convert the .pptx file into a .txt file. It should output in a ProPresenter ready format.
-3. Review the converted text, adjusting titles and group names for accuracy. Valid group names include: Verse, Verse (1-6), Chorus, Chorus (1-4), Bridge, Bridge (1-3), Pre-Chorus, Tag, Intro, Outro, Interlude, Vamp, Turnaround.
-4. Follow the steps in Option #2 for importing from a .txt file.
+3. Review and tweak the text file to ensure correct title and grouping. Valid group names include: Verse, Verse (1-6), Chorus, Chorus (1-4), Bridge, Bridge (1-3), Pre-Chorus, Tag, Intro, Outro, Interlude, Vamp, Turnaround.
+4. Follow the text file import process outlined in Method 2.
 
 ## Editing and Arranging Songs
 
 ### Song Structure
-- Include every verse and variation in the master arrangement, considering translations.
+- The master arrangement should encompass every verse and chorus variation, including translations
 - Repeating sections (chorus, bridge) should appear only once in the master version.
 - Create a `Main` arrangement where all repeated sections are correctly placed.
-- Any slide exceeding 4 lines should be divided into two connected slides.
+- To split slides correctly the second split slide should have no label deliberatly assigned to it so that both slides appear as one component in the arrangments.
+- Any slide exceeding 4 lines should be divided into two slides next to each other so that the group of the second split part is inhierted from the first part of the split slide.
 
-#### Main Arrangement Details
-- Arrange verses and choruses to mirror the original song's sequence.
-- The `Main` arrangement should only include verses typically sung.
-- Exclude uncommon variations from the `Main` arrangement; create specific arrangements for them (e.g., `w/English`, `w/Russian`).
-- Repeat any verses or choruses in the arrangement if they are repeated in the song. So if chorus repeats there should be two choruses nest to each pther in the arragement
+    ```
+    Original Slide:
+    Chorus- "This is a part of the chorus that is 4 lines long, This is a part of that is also 4 lines long"
+  
+    New Slide:
+    Slide 1 Chorus - "This is a part of the chorus that is 4 lines long"
+    Slide 2 Chorus  "This is a part of that is also 4 lines long"   (This slide should have no group assigned)
+    ```
 - Create separate slides for repeated sections within a verse or chorus.
 
-#### Arrangement Naming Scheme
-- `Master`: The comprehensive version containing all unique elements of the song.
-- `Main`: An arrangement closely resembling the original song, typically used.
-- `w/Russian`: An English arrangement with Russian elements.
-- `w/English`: A Russian arrangement with English elements.
+    ```
+    Original Slide:
+    Chorus - "This ia the text from a chorus and is sang once. But this part is sang twice"
+  
+    New Slide:
+    Slide 1 Chorus - "This ia the text from a chorus and is sang once, But this part is sang twice"
+    Slide 2 Chorus - "But this part is sang twice"   (This slide should have no group assigned)
+    ```
 
-### Example Arrangements
+#### Main Arrangement Details
+- Follow the original song's structure when arranging verses and choruses in the `main` arrangement.
+- Form specific arrangements for uncommon song variations, like `w/English` or `w/Russian`.
+- Repeat any verses or choruses in the arrangement if they are repeated in the song. So if a chorus repeats there should be two choruses next to each other in the arragement.
 
-#### Simple Song
+#### Guidelines for Naming Arrangements
+- `Master`: A comprehensive version with all the song's unique components.
+- `Main`: The main composition that mirrors the original song structure. 
+- `w/Russian`: An English song with Russian inclusions.
+- `w/English`: A Russian song with English inclusions.
+
+### Sample Song Arrangements
+
+#### Simple Composition
 - **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3`
 - **Main**: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus`
 
-#### Simple Song With Chorus Reapeat
+#### Composition With Chorus Reapeat
 - **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3`
 - **Main**: `Verse 1 | Chorus | Chorus | Verse 2 | Chorus | Chorus | Verse 3 | Chorus | Chorus`
 
-#### Song With Bridge
+#### Composition with a Bridge
 - **Master**: `Verse 1 | Chorus | Verse 2 | Verse 3 | Bridge`
 - **Main**: `Verse 1 | Chorus | Verse 2 | Chorus | Verse 3 | Chorus | Bridge | Chorus`
 
-#### English Song w/Russian
+#### English Composition w/Russian
 - **Master**:`Verse 1 | Verse 1(Russian Version) | Chorus | Chorus(Russian) | Verse 2 | Verse 2(Russian)`
 - **Main**:`Verse 1 | Chorus | Verse 2 | Chorus`
 - **w/Russian**:`Verse 1 | Chorus | Verse 2 | Chorus | Verse 2(Russian) | Chorus(Russian)`
