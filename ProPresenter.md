@@ -11,7 +11,7 @@ Always check if the song already exist before adding it. If it does already exis
 4. Choose the Library that it should be saved too(usually `Youth Songs`) and the Playlist it should be put in(usually `Youth Service`).
 5. Go to the reflow editor
 6. Add all unique verses/choruses and set the group accordingly. So only one chorus is the same chorus repeats in multiple spots.
-7. Refer to [Editing Songs](#editing/formatting-songs) and make a `Main` arrangement.
+7. Refer to [Editing Songs](#editing-and-arranging-songs) and make a `Main` arrangement.
 
 ### Option #2: From .txt File
 
@@ -37,7 +37,7 @@ The text for Verse 3
 3. Double-check the theme is set to `Singing Main`
 4. Choose the Library that it should be saved too(usually `Youth Songs`) and the Playlist it should be put in(usually `Youth Service`).
 5. Click Edit. Remove any duplicate choruses and regroup slides. There should be only one chorus if it repeats multiple times.
-6. Refer to [Editing Songs](#editing/formatting-songs) for more editing and arranging details.
+6. Refer to [Editing Songs](#editing-and-arranging-songs) for more editing and arranging details.
 
 ### Option #3: From PowerPoint(pptx)
 
@@ -46,7 +46,7 @@ The text for Verse 3
 3. Open the text file and make sure the conversion was good and adjust any names groups. make sure the title is correct to not cause confusion.
 
 
-## Editing/Formatting Songs
+## Editing and Arranging Songs
 
 
 ### Song Structure
