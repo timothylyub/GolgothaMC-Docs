@@ -44,6 +44,8 @@ More Verse 3 lyrics text
 ### Option #3: Importing From PowerPoint (pptx)
 1. Acquire a PowerPoint (.pptx) file. Convert other formats (e.g., Google Slides, Keynote) to .pptx.
 2. Use a terminal command to convert the .pptx file into a .txt file. It should output in a ProPresenter ready format.
+    1. 'pp_to_txt' + Space + drag pptx file to terminal + Enter
+    2. File will be saved to desktop. 
 3. Review and tweak the text file to ensure correct title and grouping. Valid group names include: Verse, Verse (1-6), Chorus, Chorus (1-4), Bridge, Bridge (1-3), Pre-Chorus, Tag, Intro, Outro, Interlude, Vamp, Turnaround.
 4. Follow the text file import process outlined in Method 2.
 
